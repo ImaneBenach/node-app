@@ -6,4 +6,8 @@ router.get('/ville', function(req, res, next) {
   res.render('index', { title: 'test' });
 });
 
+router.post('/', function(req, res, next) {
+  res.render('ville', { nom_ville: req.body.nom_ville });
+});
+
 module.exports = router;
