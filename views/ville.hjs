@@ -7,9 +7,6 @@
   <body>
     <h1> Ville: </h1>
     <p>{{nom_ville}}</p>
-    <p>{{longitude}}</p>
-    <p>{{lattitude}}</p>
-    <p>{{erreur}}</p>
 
   </body>
 </html>
