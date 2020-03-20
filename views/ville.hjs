@@ -5,7 +5,6 @@
         <link rel='stylesheet' href='/stylesheets/style.css' />
     </head>
     <body>
-        <h1>Bienvenue à {{ ville }}</h1>
 
         <div class="longitude">
             <p>Longitude : {{ longitude }}</p>
