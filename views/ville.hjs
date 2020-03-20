@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ nom_ville }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ nom_ville }}</h1>
-    <p> Ville : {{ nom_ville }}</p>
-  </body>
+    <head>
+        <title>Nom de la ville</title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1>{{ nom_ville }}</h1>
+
+        <div class="longitude">
+            <p>Longitude : {{ longitude }}</p>
+            <p>Latitude : {{ latitude }}</p>
+        </div>
+
+        <iframe 
+            width="600"
+            height="450"
+            frameborder="0" 
+            style="border:0" 
+            src="https://maps.google.com/maps?q={{ latitude }},{{ longitude }}+&hl=es;z=14&amp;output=embed">
+        </iframe>
+    </body>
 </html>
