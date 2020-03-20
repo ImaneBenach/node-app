@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>Bienvenue à {{ title }}</p>
+    <p>Welcome to {{ title }}</p>
 
     <form action="ville" method="post" class="form">
       <div class="form">
@@ -14,7 +14,7 @@
         <input type="text" name="ville" id="nom_ville" required>
       </div>
       <div class="form">
-        <input type="submit" value="GO">
+        <input type="submit" value="Envoyer">
       </div>
     </form>
 
